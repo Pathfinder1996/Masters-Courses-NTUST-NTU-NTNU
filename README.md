@@ -1,4 +1,8 @@
-<div align="center">
-  <img src="https://i.imgur.com/O6yhYLi.png" alt="image">
+<p align="center">
+    <img alt="ntu" width="auto" height="auto" src="/image/NTU_System.png"/>
+</p>
 
-Materials (slide, handout, homework, cheatsheet...) of the courses I took or audited at NTUST(臺科大)/NTU(臺大)/NTNU(臺師大)/NTU ISTP(臺大資訊系統訓練班)
+---
+
+Materials (slide, handout, homework, cheatsheet...) of the courses I took or audited at NTUST/NTU/NTNU/NTU ISTP
+
