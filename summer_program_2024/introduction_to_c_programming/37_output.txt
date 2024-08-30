@@ -1,0 +1,13 @@
+1
+not an integer
+888
+-889
+not an integer
+not an integer
+not an integer
+2147483647
+-2147483648
+not an integer
+1
+-2147483648
+not an integer

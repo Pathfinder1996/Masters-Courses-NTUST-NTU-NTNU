@@ -1,0 +1,14 @@
+add b
+show .
+add n
+show +
+add n
+show -
+add ?
+show a
+show A
+show /
+show ~
+add *
+show #
+q

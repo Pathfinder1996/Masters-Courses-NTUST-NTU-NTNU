@@ -1,0 +1,7 @@
+5
+This is 1 line of input!
+1,275 + 9.88 = 1,284.88
+  apple 
+apple banana
+apple  banana        python
+

@@ -1,0 +1,13 @@
+1
+not an integer
+889
+0
+not an integer
+not an integer
+not an integer
+2147483647
+-1
+not an integer
+0
+-2147483648
+not an integer

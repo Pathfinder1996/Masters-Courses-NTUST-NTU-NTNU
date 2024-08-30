@@ -1,0 +1,23 @@
+adding succeed
+adding succeed
+adding succeed
+adding failed
+we have 3 goods now
+apple_juice 25
+cheese_sandwich 40
+orange_juice 20
+editing succeed
+editing failed
+deleting failed
+deleting failed
+deleting succeed
+deleting failed
+editing failed
+adding succeed
+adding succeed
+we have 4 goods now
+apple_juice 25
+cheese_sandwich 38
+orange_juice 22
+schnitzel 65
+end
