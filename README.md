@@ -36,5 +36,5 @@
 
 # 2025 Spring
 
-# Open Courseware(Self-directed Learning)
+# Open Courseware
 - 資料結構(Data Structure)
