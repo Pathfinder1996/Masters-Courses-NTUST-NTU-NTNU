@@ -32,7 +32,6 @@
 - 系統程式(System Software) `大學部`
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部`
-- 資料庫管理(Database Management) `大學部`
 
 # 2025 Spring
 
