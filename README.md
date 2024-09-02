@@ -32,8 +32,8 @@
 - 系統程式(System Software) `大學部`
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部` 
-    - Dynamic Library Linking
-    - Static Library Linking
+    - Dynamic Linking Library 
+    - Static Linking Library 
     - Unix System Call
     - Final Project: 組譯器
 
