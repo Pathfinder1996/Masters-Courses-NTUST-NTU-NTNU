@@ -32,10 +32,10 @@
 - 系統程式(System Software) `大學部`
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部` 
-    1. Dynamic Library Linking
-    2. Static Library Linking
-    3. Unix System Call
-    4. final project: 組譯器
+    - ☐ Dynamic Library Linking
+    - ☐ Static Library Linking
+    - ☐ Unix System Call
+    - ☐ final project: 組譯器
 
 # 2025 Spring
 
