@@ -29,7 +29,7 @@
 - 矩陣理論與應用(Matrix Theory and Applications)
 - 電腦視覺(Computer Vision)
 - 影像處理(Image Processing)
-- 系統程式(System Programming) `大學部`
+- 系統程式(System Software) `大學部`
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部`
 - 資料庫管理(Database Management) `大學部`
