@@ -30,12 +30,12 @@
 - 電腦視覺(Computer Vision)
 - 影像處理(Image Processing)
 - 系統程式(System Software) `大學部`
-- 計算機結構(Computer Architecture) `大學部`
-- 程式設計(Programming Design) `大學部` 
     - Dynamic Linking Library 
     - Static Linking Library 
     - Unix System Call
     - Final Project: 組譯器
+- 計算機結構(Computer Architecture) `大學部`
+- 程式設計(Programming Design) `大學部` 
 
 # 2025 Spring
 
