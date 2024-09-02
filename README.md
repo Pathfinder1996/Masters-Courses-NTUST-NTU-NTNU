@@ -33,7 +33,7 @@
     - Dynamic Linking Library 
     - Static Linking Library 
     - Unix System Call
-    - Final Project: 組譯器
+    - Final Project : 組譯器
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部` 
 
