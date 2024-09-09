@@ -25,6 +25,7 @@
 - Linux 作業系統(Linux Operating System) `臺大資訊系統訓練班 非正式課程`
 
 # 2024 Fall
+- 高等演算法(Advanced Algorithms)
 - 矩陣理論與應用(Matrix Theory and Applications)
 - 電腦視覺(Computer Vision)
 - 影像處理(Image Processing)
@@ -40,4 +41,3 @@
 
 # Open Courseware
 - 資料結構(Data Structure)
-- 高等演算法(Advanced Algorithms)
