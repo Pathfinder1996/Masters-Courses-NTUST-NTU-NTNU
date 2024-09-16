@@ -2,7 +2,7 @@
     <img alt="ntu" width="auto" height="auto" src="/image/1.png"/>
 </p>
 
-<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU/NTU ISTP</h3>
+<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
 
 ---
 
@@ -27,13 +27,8 @@
 # 2024 Fall
 - 高等演算法(Advanced Algorithms)
 - 矩陣理論與應用(Matrix Theory and Applications)
-- 電腦視覺(Computer Vision)
 - 影像處理(Image Processing)
 - 系統程式(System Software) `大學部`
-    - Dynamic Linking Library 
-    - Static Linking Library 
-    - Unix System Call
-    - Final Project : 組譯器
 - 計算機結構(Computer Architecture) `大學部`
 - 程式設計(Programming Design) `大學部` 
 
@@ -41,3 +36,4 @@
 
 # Open Courseware
 - 資料結構(Data Structure)
+- 數位邏輯設計(Digital Logic Design)
