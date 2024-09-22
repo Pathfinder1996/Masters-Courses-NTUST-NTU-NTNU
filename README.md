@@ -36,4 +36,3 @@
 
 # Open Courseware
 - 資料結構(Data Structure)
-- 數位邏輯設計(Digital Logic Design)
