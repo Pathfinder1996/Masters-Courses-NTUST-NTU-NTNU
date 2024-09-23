@@ -6,6 +6,7 @@ public:
         printf("%s", s);
         return *this;
     }
+
     OutputStream& operator<<(int s) {
         printf("%d", s);
         return *this;
@@ -16,14 +17,14 @@ public:
         return *this;
     }
 
-    OutputStream& operator<<(OutputStream& s) {
-        printf("\n");
+    OutputStream& operator<<(char s) {
+        printf("%c", s);
         return *this;
     }
 };
 
 OutputStream myCout;
-OutputStream myEndl;
+char myEndl = '\n';
 
 int main() {
     myCout << "3 + 5 == " << 3 + 5  << myEndl
