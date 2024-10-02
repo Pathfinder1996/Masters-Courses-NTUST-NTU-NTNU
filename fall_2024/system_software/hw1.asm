@@ -1,11 +1,13 @@
-        LDA     ONE
+TEST    START   0
+
+BEGIN   LDA     ONE
         STA     I
         LDA     ZERO
         STA     INDEX
-        
+          
 L1      LDA     ONE
         STA     J
-
+          
 L2      LDA     I
         MUL     J
         STA     SUM
@@ -14,7 +16,7 @@ L2      LDA     I
         STA     TEMP
         LDX     TEMP
         LDA     SUM
-        STA     ARRAY, X
+        STA     ARRAY,X
         LDA     INDEX
         ADD     ONE
         STA     INDEX
@@ -24,13 +26,15 @@ L2      LDA     I
         LDA     J
         COMP    TEN
         JLT     L2
-
+        
         LDA     I
         ADD     ONE
         STA     I
         LDA     I
         COMP    TEN
         JLT     L1
+
+        END     BEGIN
 
 I       RESW    1
 J       RESW    1
