@@ -43,8 +43,7 @@ int hoarePartition(int *array, int left, int right) {
     int pivot = array[left];
     int i = left - 1;
     int j = right + 1;
-    while (1)
-    {
+    while (1) {
         do {
             i = i + 1;
         } while (array[i] < pivot);
