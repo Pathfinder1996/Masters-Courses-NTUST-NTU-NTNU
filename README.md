@@ -47,11 +47,11 @@
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">演算法(Algorithms) `大學部`</span>
+    <span style="margin-left: 20px;">演算法(Algorithms)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
-    <span style="margin-left: 20px;">Python資料分析與機器學習應用(Data Analysis and Machine Learning with Python) `大學部`</span>
+    <span style="margin-left: 20px;">Python資料分析與機器學習應用(Data Analysis and Machine Learning with Python)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
@@ -60,13 +60,13 @@
 
 # 2024 Summer Program
 <p align="left" style="display: flex; align-items: center;">
-    <span style="margin-left: 20px;">C 語言程式設計入門(Introduction to C Programming) `臺大資訊系統訓練班 非正式課程`</span>
+    <span style="margin-left: 20px;">C 語言程式設計入門(Introduction to C Programming)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
-    <span style="margin-left: 20px;">C++ 進階程式設計(Advanced C++ Programming) `臺大資訊系統訓練班 非正式課程`</span>
+    <span style="margin-left: 20px;">C++ 進階程式設計(Advanced C++ Programming)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
-    <span style="margin-left: 20px;">Linux 作業系統(Linux Operating System) `臺大資訊系統訓練班 非正式課程`</span>
+    <span style="margin-left: 20px;">Linux 作業系統(Linux Operating System)</span>
 </p>
 
 # 2024 Fall
@@ -84,15 +84,15 @@
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
-    <span style="margin-left: 20px;">系統程式(System Software) `大學部`</span>
+    <span style="margin-left: 20px;">系統程式(System Software)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
-    <span style="margin-left: 20px;">計算機結構(Computer Architecture) `大學部`</span>
+    <span style="margin-left: 20px;">計算機結構(Computer Architecture)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
-    <span style="margin-left: 20px;">程式設計(Computer Programming) `大學部` </span>
+    <span style="margin-left: 20px;">程式設計(Computer Programming)</span>
 </p>
 
 # 2025 Spring
