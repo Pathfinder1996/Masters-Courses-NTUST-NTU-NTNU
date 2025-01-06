@@ -1,0 +1,9 @@
+requirements:
+python==3.9.2
+numpy==1.26.4
+scikit-learn==1.4.2
+xgboost==2.0.3
+matplotlib==3.9.0
+seaborn==0.13.2
+imblearn
+joblib==1.4.2
