@@ -1,0 +1,41 @@
+00000            TEST   START   0    
+                  
+00000  010001           LDA     #1    
+00003  AC04             RMO     A,S    
+00005  010000           LDA     #0    
+00008  AC03             RMO     A,B    
+                  
+0000A  010001    L1     LDA     #1    
+0000D  AC05             RMO     A,T    
+                  
+0000F  AC30      L2     RMO     B,A    
+00011  210003           MUL     #3    
+00014  AC01             RMO     A,X    
+                  
+00016  AC50             RMO     T,A    
+00018  9840             MULR    S,A    
+0001A  0FA025           STA     ARRAY,X    
+                  
+0001D  AC30             RMO     B,A    
+0001F  190001           ADD     #1    
+00022  AC03             RMO     A,B    
+                  
+00024  AC50             RMO     T,A    
+00026  190001           ADD     #1    
+00029  AC05             RMO     A,T    
+                  
+0002B  AC50             RMO     T,A    
+0002D  29000A           COMP    #10    
+00030  3B2FDC           JLT     L2    
+                  
+00033  AC40             RMO     S,A    
+00035  190001           ADD     #1    
+00038  AC04             RMO     A,S    
+                  
+0003A  AC40             RMO     S,A    
+0003C  29000A           COMP    #10    
+0003F  3B2FC8           JLT     L1    
+                  
+00042                   END     TEST    
+                  
+00042  00....00  ARRAY  RESW    81    

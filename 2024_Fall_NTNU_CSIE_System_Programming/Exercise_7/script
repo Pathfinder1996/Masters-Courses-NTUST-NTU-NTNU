@@ -1,0 +1,101 @@
+Script started on Thu 28 Nov 2024 10:59:24 PM CST
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ more main.c 
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+int main() {
+	unsigned int status;
+	int fd1, fd2;
+	char input[100];
+	scanf("%s", input);
+	fd1 = open(input, O_RDONLY);
+	pid_t i = fork();
+	
+	if (i == 0) {
+		fd2 = open("result", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+		close(0);
+		dup(fd1);
+		close(fd1);
+		
+		close(1);
+		dup(fd2);
+		close(fd2);
+
+		execlp("wc", "wc", (char *)NULL);	
+	}
+	else {	
+		wait(&status);
+		
+		fd2 = open("result", O_RDONLY);
+		
+		char buffer[100];
+		int rd1 = read(fd2, buffer, sizeof(buffer) - 1);
+		buffer[rd1] = '\0';
+
+		int num1, num2;
+		sscanf(buffer, "%d %d", &num1, &num2);
+		printf("%d %d\n", num1, num2);
+		
+[7m--More--(95%)[27m[K		close(fd2);
+[7m--More--(97%)[27m[K	}
+[7m--More--(97%)[27m[K
+[7m--More--(98%)[27m[K	return 0;
+[7m--More--(99%)[27m}[K
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ ls -l
+total 8
+-rw-r--r-- 1 M11212913 telnet 123 2024-11-28 22:54 foo.bar
+-rw-r--r-- 1 M11212913 telnet 680 2024-11-28 22:57 main.c
+-rw-r--r-- 1 M11212913 telnet   0 2024-11-28 22:59 script
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ more foo.bar 
+hello world
+
+io redirection
+system call
+
+test123
+
+lllllll
+
+
+sadsad sad sad
+
+wwwwwwwwww
+
+a sd
+
+ adasdsad
+asdasdsadasdsadasd
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ wc foo.bar 
+ 18  16 123 foo.bar
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ mao[Kin.c[K[K[K[K[K[Kfcc[K[K[Kgcc na[K[Kmain.c 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ ls -l
+total 16
+-rwxr-xr-x 1 M11212913 telnet 7483 2024-11-28 23:00 [0m[01;32ma.out[0m
+-rw-r--r-- 1 M11212913 telnet  123 2024-11-28 22:54 foo.bar
+-rw-r--r-- 1 M11212913 telnet  680 2024-11-28 22:57 main.c
+-rw-r--r-- 1 M11212913 telnet    0 2024-11-28 22:59 script
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ ./a.out 
+foo.bar
+18 16
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ ls -l
+total 20
+-rwxr-xr-x 1 M11212913 telnet 7483 2024-11-28 23:00 [0m[01;32ma.out[0m
+-rw-r--r-- 1 M11212913 telnet  123 2024-11-28 22:54 foo.bar
+-rw-r--r-- 1 M11212913 telnet  680 2024-11-28 22:57 main.c
+-rw-r--r-- 1 M11212913 telnet   12 2024-11-28 23:00 result
+-rw-r--r-- 1 M11212913 telnet    0 2024-11-28 22:59 script
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ exit[K[K[K[Kmore result
+ 18  16 123
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ s[K
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ 
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ exxit
+exxit: command not found
+]0;M11212913@telnet: ~/hw7M11212913@telnet:~/hw7$ exxit[1Pit
+exit
+
+Script done on Thu 28 Nov 2024 11:00:32 PM CST

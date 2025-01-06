@@ -1,0 +1,81 @@
+Script started on Thu 09 Nov 2023 10:42:38 AM CST
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ gcc -fPIC -c sayhello.c
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ls =l
+ls: cannot access =l: No such file or directory
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ls -l
+total 12
+-rw-r--r-- 1 ghhwang faculty   49 2016-11-07 08:14 main.c
+-rw-r--r-- 1 ghhwang faculty    0 2023-11-09 10:42 Result
+-rw-r--r-- 1 ghhwang faculty  153 2016-11-07 08:14 sayhello.c
+-rw-r--r-- 1 ghhwang faculty 1256 2023-11-09 10:43 sayhello.o
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ gcc -shared sayhello.o -o libmylib. so
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ls -l
+total 20
+-rwxr-xr-x 1 ghhwang faculty 6730 2023-11-09 10:44 libmylib.so
+-rw-r--r-- 1 ghhwang faculty   49 2016-11-07 08:14 main.c
+-rw-r--r-- 1 ghhwang faculty    0 2023-11-09 10:42 Result
+-rw-r--r-- 1 ghhwang faculty  153 2016-11-07 08:14 sayhello.c
+-rw-r--r-- 1 ghhwang faculty 1256 2023-11-09 10:43 sayhello.o
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ gcc -o hello-d main.c libmylib.so
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ls -l
+total 28
+-rwxr-xr-x 1 ghhwang faculty 7079 2023-11-09 10:46 hello-d
+-rwxr-xr-x 1 ghhwang faculty 6730 2023-11-09 10:44 libmylib.so
+-rw-r--r-- 1 ghhwang faculty   49 2016-11-07 08:14 main.c
+-rw-r--r-- 1 ghhwang faculty    0 2023-11-09 10:42 Result
+-rw-r--r-- 1 ghhwang faculty  153 2016-11-07 08:14 sayhello.c
+-rw-r--r-- 1 ghhwang faculty 1256 2023-11-09 10:43 sayhello.o
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ./hello.[K-d
+./hello-d: error while loading shared libraries: libmylib.so: cannot open shared object file: No such file or directory
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ldd hello-d
+	linux-gate.so.1 =>  (0xb7849000)
+	libmylib.so => not found
+	libc.so.6 => /lib/i386-linux-gnu/libc.so.6 (0xb76d8000)
+	/lib/ld-linux.so.2 (0xb784a000)
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ setenv
+No command 'setenv' found, did you mean:
+ Command 'netenv' from package 'netenv' (universe)
+setenv: command not found
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ emv[K[Knv
+SHELL=/bin/bash
+TERM=xterm
+SSH_CLIENT=140.122.136.67 62198 22
+SSH_TTY=/dev/pts/0
+USER=ghhwang
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+MAIL=/var/mail/ghhwang
+PWD=/home/faculty/ghhwang/SystemSoftware/dynlnk-demo
+LANG=en_US.UTF-8
+HOME=/home/faculty/ghhwang
+SHLVL=2
+LOGNAME=ghhwang
+SSH_CONNECTION=140.122.136.67 62198 140.122.185.7 22
+_=/usr/bin/env
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ export LD_LIBRARY_PATH=$LD_LIBRARY_ PATH:.
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ env
+SHELL=/bin/bash
+TERM=xterm
+SSH_CLIENT=140.122.136.67 62198 22
+SSH_TTY=/dev/pts/0
+USER=ghhwang
+LD_LIBRARY_PATH=:.
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+MAIL=/var/mail/ghhwang
+PWD=/home/faculty/ghhwang/SystemSoftware/dynlnk-demo
+LANG=en_US.UTF-8
+HOME=/home/faculty/ghhwang
+SHLVL=2
+LOGNAME=ghhwang
+SSH_CONNECTION=140.122.136.67 62198 140.122.185.7 22
+_=/usr/bin/env
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ls
+hello-d  libmylib.so  main.c  Result  sayhello.c  sayhello.o
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ ./hello-d
+[1;41mdynamic-linking library routine: HelloWorld!
+[0mghhwang@telnet:~/SystemSoftware/dynlnk-demo$ 
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ 
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ 
+ghhwang@telnet:~/SystemSoftware/dynlnk-demo$ exit
+exit
+
+Script done on Thu 09 Nov 2023 10:50:32 AM CST
