@@ -1,2 +1,0 @@
-area = 12866275.864
-circumference = 12715.44

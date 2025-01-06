@@ -1,9 +1,0 @@
-b
-b+n
-b-n-n
-banana?
-bAnAnA?
-b/n/n/?
-b~n~n~?
-b#n#n#?#*
-end
