@@ -1,0 +1,6 @@
+Before: Hello
+After : olleH
+Before: c++
+After : ++c
+Before: world!
+After : !dlrow
