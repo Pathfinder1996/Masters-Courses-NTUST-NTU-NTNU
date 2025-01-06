@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="ntu" width="auto" height="auto" src="/image/1.png"/>
-</p>
-
 <h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
 
 ---
