@@ -17,41 +17,41 @@
 # 2023 Fall
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Embedded Systems</span>
+    <span style="margin-left: 20px;">嵌入式系統</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Intelligent Signal Processing</span>
+    <span style="margin-left: 20px;">智慧型信號處理</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Practical Design and Development of Power Electronics Products</span>
+    <span style="margin-left: 20px;">電力電子產品設計開發實務</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Automation Project I</span>
+    <span style="margin-left: 20px;">自動化控制專題(一)</span>
 </p>
 
 # 2024 Spring
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Digital Signal Processing</span>
+    <span style="margin-left: 20px;">數位信號處理</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Fuzzy Systems and Control</span>
+    <span style="margin-left: 20px;">模糊系統與控制</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Algorithms</span>
+    <span style="margin-left: 20px;">演算法(大學部)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
-    <span style="margin-left: 20px;">Data Analysis and Machine Learning with Python</span>
+    <span style="margin-left: 20px;">Python資料分析與機器學習應用(大學部)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Automation Project II</span>
+    <span style="margin-left: 20px;">自動化控制專題(二)</span>
 </p>
 
 # 2024 Summer Program (臺大資訊系統訓練班 非正式課程)
@@ -68,32 +68,32 @@
 # 2024 Fall
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Advanced Algorithms</span>
+    <span style="margin-left: 20px;">高等演算法</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Matrix Theory and its Applications</span>
+    <span style="margin-left: 20px;">矩陣理論及其應用</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">Image Processing</span>
+    <span style="margin-left: 20px;">影像處理</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
-    <span style="margin-left: 20px;">System Programming</span>
+    <span style="margin-left: 20px;">系統程式(大學部)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
-    <span style="margin-left: 20px;">Computer Architecture</span>
+    <span style="margin-left: 20px;">計算機結構(大學部)</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
-    <span style="margin-left: 20px;">Computer Programming</span>
+    <span style="margin-left: 20px;">程式設計(大學部)</span>
 </p>
 
 # 2025 Spring
 
 # Open Courseware
 <p align="left" style="display: flex; align-items: center;">
-    <span style="margin-left: 20px;">Data Structure</span>
+    <span style="margin-left: 20px;">資料結構</span>
 </p>
