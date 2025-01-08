@@ -96,8 +96,8 @@ int addSYMTAB(const char *label, int address);
 void readRegisterFile(void);
 void pass2();
 void format2Process(int index, char *obj_code);
-void format3Process(int index, char *obj_code);
 void format4Process(int index, char *obj_code);
+void format3Process(int index, char *obj_code);
 int findSymbol(const char *find_label);
 void writeOBJFile();
 // 進制轉換 算址 pass2用
@@ -126,13 +126,6 @@ int main() {
 
     readRegisterFile(); // Register table
     pass2();
-
-    // printf("\n=== OBJTAB ===\n");
-    // int i;
-    // for (i = 0; i < obj_code_size; i++) {
-    //     printf("%-6X  %-20s\n", OBJTAB[i].code_address, OBJTAB[i].code);
-    // }
-    // printf("=====================\n");
 
     writeOBJFile();
 
@@ -271,9 +264,6 @@ int pass1(FILE *file_pointer) {
                 LOCCTR_count = count - 2;
             }
         }
-        else if (strcmp(asm_opc, "WORD") == 0) {
-            LOCCTR_count = 3;
-        }
         else if (asm_opc[0] == '+') {
             LOCCTR_count = 4;
         }
@@ -296,13 +286,13 @@ int pass1(FILE *file_pointer) {
     }
 
     if (return_value != -1) {
-        printf("\n=== Pass1: list ===\n");
+        printf("\n=== Pass1: ASMTAB ===\n");
         printf("Line  Loc     Source statement  \n");
         int i;
-        int Line = 0;
+        int Line = 1;
         for (i = 0; i < asmtable_size; i++) {
             printf("%-4d  %04X  %-6s  %-6s  %-10s\n", Line, ASMTAB[i].loc, ASMTAB[i].label, ASMTAB[i].opcode, ASMTAB[i].operand);
-            Line = Line + 5;
+            Line = Line + 1;
         }
         printf("=====================\n");
 
@@ -499,16 +489,16 @@ void pass2() {
 
         while (j < asmtable_size && ASMTAB[j].loc == ASMTAB[i].loc) {
             j = j + 1;
-            printf("%d\n", j);
+            // printf("%d\n", j);
         }
 
         if (j < asmtable_size) {
             program_counter = ASMTAB[j].loc;
-            printf("%d\n", program_counter);
+            // printf("%d\n", program_counter);
         } 
         else {
             program_counter = LOCCTR;
-            printf("%d\n", program_counter);
+            // printf("%d\n", program_counter);
         }
 
         int format_number = 0;
@@ -533,18 +523,12 @@ void pass2() {
             format4Process(i, pass2_object_code);
 
             if (ASMTAB[i].operand[0] != '#') {
-                modify[modify_size++] = ASMTAB[i].loc;
+                modify[modify_size = modify_size + 1] = ASMTAB[i].loc;
+                // printf("modify: %X\n", modify[modify_size - 1]);
             }
         } 
         else if (format_number == 3) {
             format3Process(i, pass2_object_code);
-        } 
-        else if (format_number == 4) {
-            format4Process(i, pass2_object_code);
-
-            if (ASMTAB[i].operand[0] != '#') {
-                modify[modify_size++] = ASMTAB[i].loc;
-            }
         } 
         else if (strcmp(ASMTAB[i].opcode, "BASE") == 0) {
             int base = findSymbol(ASMTAB[i].operand);
@@ -578,12 +562,12 @@ void pass2() {
         }
     }
 
-    printf("\n=== Pass2: list ===\n");
+    printf("\n=== Pass2: ASMTAB ===\n");
     printf("Line  Loc     Source statement         Object code\n");
-    int Line = 0;
+    int Line = 1;
     for (i = 0; i < asmtable_size; i++) {
         printf("%-4d  %04X  %-6s  %-6s  %-10s  %s\n", Line, ASMTAB[i].loc, ASMTAB[i].label, ASMTAB[i].opcode, ASMTAB[i].operand, ASMTAB[i].object_code);
-        Line += 5;
+        Line = Line + 1;
     }
     printf("=====================\n");
 }
@@ -812,6 +796,7 @@ void format3Process(int index, char *obj_code) {
 
     if (!direct && strcmp(f3_operand, "*") != 0) {
         char displayment[10];
+        // printf("PC: %d\n", program_counter);
         reAddress(address_to_hex, displayment);
         strcpy(address_to_hex, displayment);
 
@@ -856,10 +841,7 @@ void bitsToHex(int a, int b, int c, int d, char *output_hex) {
 void reAddress(const char *address, char *disp) {
     int x = hexToTen(address);
     int offset = x - program_counter;
-
-    // debug 
-    // printf("(TA):%-6X (PC):%-6X (Offset):%-10d\n", x, program_counter, offset);
-
+    // printf("offset: %d\n", offset);
     // PC relative
     if (offset >= -2048 && offset <= 2047) {
         check_program_counter = 1;
@@ -889,6 +871,13 @@ void writeOBJFile() {
         return;
     }
 
+    printf("\n=== OBJTAB ===\n");
+    int i;
+    for (i = 0; i < obj_code_size; i++) {
+        printf("%-6X  %-20s\n", OBJTAB[i].code_address, OBJTAB[i].code);
+    }
+    printf("=====================\n");
+
     FILE *file_out = fopen("objectProgram.txt", "w");
     
     int start_address = OBJTAB[0].code_address;
@@ -911,7 +900,7 @@ void writeOBJFile() {
     fprintf(file_out, "%s\n", temp);
 
     // T record
-    int i = 0;
+    i = 0;
     while (i < obj_code_size) {
         int record_start = OBJTAB[i].code_address;
         int collected = 0;
@@ -932,9 +921,9 @@ void writeOBJFile() {
             }
 
             strcat(text_record, OBJTAB[i].code);
-            bytes_sum += strlen(OBJTAB[i].code) / 2;
-            collected++;
-            i++;
+            bytes_sum = bytes_sum + strlen(OBJTAB[i].code) / 2;
+            collected = collected + 1;
+            i = i + 1;
         }
 
         printf("T^");
