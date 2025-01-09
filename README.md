@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/08684470-2f56-4feb-9d52-388754280c72)<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
+<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
 
 ---
 <p align="left" style="display: flex; align-items: center;">
