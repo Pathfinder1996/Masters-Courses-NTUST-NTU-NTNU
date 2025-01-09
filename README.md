@@ -13,6 +13,10 @@
     <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
     <span style="margin-left: 20px;">臺師大(NTNU) 課程</span>
 </p>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/OCW.png"/>
+    <span style="margin-left: 20px;">開放式課程或自主進修學習</span>
+</p>
 
 # 2023 Fall
 <p align="left" style="display: flex; align-items: center;">
@@ -144,12 +148,15 @@ and non-ideal filters</li>
 
 # 2024 Summer Program (臺大資訊系統訓練班 非正式課程)
 <p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/OCW.png"/>
     <span style="margin-left: 20px;">Introduction to C Programming</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/OCW.png"/>
     <span style="margin-left: 20px;">C++ Programming</span>
 </p>
 <p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/OCW.png"/>
     <span style="margin-left: 20px;">Linux Operating System</span>
 </p>
 
@@ -226,6 +233,7 @@ and non-ideal filters</li>
 
 # Open Courseware (開放式課程或自主學習)
 <p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/OCW.png"/>
     <span style="margin-left: 20px;">資料結構</span>
 </p>
 <ul style="margin-left: 50px;">
