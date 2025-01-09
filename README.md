@@ -159,8 +159,8 @@ and non-ideal filters</li>
     <span style="margin-left: 20px;">高等演算法</span>
 </p>
 <ul style="margin-left: 50px;">
-    <li>課程用書: Introduction to the Design and Analysis of Algorithms | Anany Levitin</li>
-    <li>課程用書: Computer Algorithms | Ellis Horowitz, Sartaj Sahni, Sanguthevar Rajasekaran</li>
+    <li>課程用書(1): Introduction to the Design and Analysis of Algorithms | Anany Levitin</li>
+    <li>課程用書(2): Computer Algorithms | Ellis Horowitz, Sartaj Sahni, Sanguthevar Rajasekaran</li>
     <li>課程內容:</li>
     <ul style="margin-left: 50px;">
         <li>Chapter 1: Introduction</li>
