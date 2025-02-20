@@ -1,4 +1,4 @@
-<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
+![image](https://github.com/user-attachments/assets/9183c085-8e0c-419e-bd95-bfa9930ad328)![image](https://github.com/user-attachments/assets/2633ea0d-0fc3-469a-8a17-d9ab11320e05)<h3 align="center">Materials (slide, homework...) of the courses I took at NTUST/NTU/NTNU</h3>
 
 ---
 <p align="left" style="display: flex; align-items: center;">
@@ -230,6 +230,119 @@ and non-ideal filters</li>
 </ul>
 
 # 2025 Spring
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
+    <span style="margin-left: 20px;">計算機組織</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書: Computer Organization and Design MIPS Edition: The Hardware/Software Interface | Patterson, David A., Hennessy, John L.</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Chapter 1: Computer Abstractions and Technology</li>
+        <li>Chapter 2: Instructions: Language of the Computer</li>
+        <li>Chapter 3: Arithmetic for Computers</li>
+        <li>Chapter 4: The Processor</li>
+        <li>Chapter 5: Large and Fast: Exploiting Memory Hierarchy</li>
+        <li>Chapter 6: Parallel Processors from Client to Cloud</li>
+    </ul>
+</ul>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
+    <span style="margin-left: 20px;">作業系統</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書: Operating System Concepts | Abraham Silberschatz, Peter Raer Galvin, Greg Gagne</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Chapter 1: Introduction</li>
+        <li>Chapter 2: Operating-System Structures</li>
+        <li>Chapter 3: Processes</li>
+        <li>Chapter 4: Threads & Concurrency</li>
+        <li>Chapter 5: CPU Scheduling</li>
+        <li>Chapter 6: Synchronization Tools</li>
+        <li>Chapter 7: Synchronization Examples</li>
+        <li>Chapter 8: Deadlocks</li>
+        <li>Chapter 9: Main Memory</li>
+        <li>Chapter 10: Virtual Memory</li>
+    </ul>
+</ul>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTNU.png"/>
+    <span style="margin-left: 20px;">編譯系統設計</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書(1): Crafting a Compiler with C | Richard J. LeBlanc, Jr.</li>
+    <li>課程用書(2): Lex & yacc | John R. Levine, Tony Mason and Doug Brown, O’Reilly & Associates</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Chapter 1: Introduction</li>
+        <li>Chapter 2: A Simple Compiler</li>
+        <li>Chapter 3: Scanning</li>
+        <li>Chapter 4: Lex 軟體使用</li>
+        <li>Chapter 5: Grammars and Parsing</li>
+        <li>Chapter 6: LL(1) Grammars and Parsing</li>
+        <li>Chapter 7: LR Parsing</li>
+        <li>Chapter 8: Yacc軟體使用</li>
+        <li>Chapter 9: Semantic Processing</li>
+        <li>Chapter 10: Symbol Tables</li>
+    </ul>
+</ul>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
+    <span style="margin-left: 20px;">資料結構</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書: Fundamentals of Data Structures in C++, 2/e | Ellis Horowitz, Sartaj Sahni, Dinesh Mehta</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Chapter 1: Introduction</li>
+        <li>Chapter 2: Array</li>
+        <li>Chapter 3: Stack & Queue</li>
+        <li>Chapter 4: Linked List</li>
+        <li>Chapter 5: Tree</li>
+        <li>Chapter 6: Graph</li>
+        <li>Chapter 7: Sorting</li>
+        <li>Chapter 8: Hashing</li>
+    </ul>
+</ul>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
+    <span style="margin-left: 20px;">電腦網路導論</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書: Computer Networking: A Top-Down Approach, 7/e | James F. Kurose, Keith W. Ross</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Chapter 1: Introduction</li>
+        <li>Chapter 2: Application Layer</li>
+        <li>Chapter 3: Transport Layer</li>
+        <li>Chapter 4: Network Layer: Data Plane</li>
+        <li>Chapter 5: Network Layer: Control Plane</li>
+        <li>Chapter 6: Multiple Access Protocols</li>
+        <li>Reliable Data Transfer</li>
+    </ul>
+</ul>
+<p align="left" style="display: flex; align-items: center;">
+    <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
+    <span style="margin-left: 20px;">資料庫系統</span>
+</p>
+<ul style="margin-left: 50px;">
+    <li>課程用書: Fundamentals of Database Systems, 7/e | Ramez Elmasri, Shamkant B. Navathe,  Pearson IT Certifica</li>
+    <li>課程內容:</li>
+    <ul style="margin-left: 50px;">
+        <li>Databases and Database Users</li>
+        <li>Database System Concepts and Architecture</li>
+        <li>Data Modeling Using the Entity-Relationship (ER) Model</li>
+        <li>The Enhanced Entity-Relationship(EER) Model</li>
+        <li>The Relational Data Model and Relational Database Constraints</li>
+        <li>Basic SQL</li>
+        <li>More SQL-Complex Queries, Triggers, Views, and Schema ModificationL</li>
+        <li>The Relational Algebra and Relational Calculus</li>
+        <li>Relational Database Design by ER- and EER-to-Relational Mapping</li>
+        <li>PHP and MySQL</li>
+        <li>Python and MySQL</li>
+    </ul>
+</ul>
 
 # Open Courseware (開放式課程或自主學習)
 <p align="left" style="display: flex; align-items: center;">
