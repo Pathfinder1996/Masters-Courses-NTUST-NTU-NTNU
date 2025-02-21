@@ -232,7 +232,7 @@ and non-ideal filters</li>
 # 2025 Spring
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">計算機組織</span>
+    <span style="margin-left: 20px;">計算機組織(大學部)</span>
 </p>
 <ul style="margin-left: 50px;">
     <li>課程用書: Computer Organization and Design MIPS Edition: The Hardware/Software Interface | Patterson, David A., Hennessy, John L.</li>
@@ -248,7 +248,7 @@ and non-ideal filters</li>
 </ul>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">作業系統</span>
+    <span style="margin-left: 20px;">作業系統(大學部)</span>
 </p>
 <ul style="margin-left: 50px;">
     <li>課程用書: Operating System Concepts | Abraham Silberschatz, Peter Raer Galvin, Greg Gagne</li>
@@ -289,7 +289,7 @@ and non-ideal filters</li>
 </ul>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">資料結構</span>
+    <span style="margin-left: 20px;">資料結構(大學部)</span>
 </p>
 <ul style="margin-left: 50px;">
     <li>課程用書: Fundamentals of Data Structures in C++, 2/e | Ellis Horowitz, Sartaj Sahni, Dinesh Mehta</li>
@@ -307,7 +307,7 @@ and non-ideal filters</li>
 </ul>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTU.png"/>
-    <span style="margin-left: 20px;">電腦網路導論</span>
+    <span style="margin-left: 20px;">電腦網路導論(大學部)</span>
 </p>
 <ul style="margin-left: 50px;">
     <li>課程用書: Computer Networking: A Top-Down Approach, 7/e | James F. Kurose, Keith W. Ross</li>
@@ -324,7 +324,7 @@ and non-ideal filters</li>
 </ul>
 <p align="left" style="display: flex; align-items: center;">
     <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">資料庫系統</span>
+    <span style="margin-left: 20px;">資料庫系統(大學部)</span>
 </p>
 <ul style="margin-left: 50px;">
     <li>課程用書: Fundamentals of Database Systems, 7/e | Ramez Elmasri, Shamkant B. Navathe,  Pearson IT Certifica</li>
