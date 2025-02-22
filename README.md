@@ -322,27 +322,6 @@ and non-ideal filters</li>
         <li>Reliable Data Transfer</li>
     </ul>
 </ul>
-<p align="left" style="display: flex; align-items: center;">
-    <img alt="ntu" width="30" height="30" src="/image/NTUST.png"/>
-    <span style="margin-left: 20px;">資料庫系統(大學部)</span>
-</p>
-<ul style="margin-left: 50px;">
-    <li>課程用書: Fundamentals of Database Systems, 7/e | Ramez Elmasri, Shamkant B. Navathe,  Pearson IT Certifica</li>
-    <li>課程內容:</li>
-    <ul style="margin-left: 50px;">
-        <li>Databases and Database Users</li>
-        <li>Database System Concepts and Architecture</li>
-        <li>Data Modeling Using the Entity-Relationship (ER) Model</li>
-        <li>The Enhanced Entity-Relationship(EER) Model</li>
-        <li>The Relational Data Model and Relational Database Constraints</li>
-        <li>Basic SQL</li>
-        <li>More SQL-Complex Queries, Triggers, Views, and Schema Modification</li>
-        <li>The Relational Algebra and Relational Calculus</li>
-        <li>Relational Database Design by ER- and EER-to-Relational Mapping</li>
-        <li>PHP and MySQL</li>
-        <li>Python and MySQL</li>
-    </ul>
-</ul>
 
 # Open Courseware (開放式課程或自主學習)
 <p align="left" style="display: flex; align-items: center;">
