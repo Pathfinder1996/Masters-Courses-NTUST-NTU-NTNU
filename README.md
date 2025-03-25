@@ -315,11 +315,11 @@ and non-ideal filters</li>
     <ul style="margin-left: 50px;">
         <li>Chapter 1: Introduction</li>
         <li>Chapter 2: Application Layer</li>
+        <li>Reliable Data Transfer</li>
         <li>Chapter 3: Transport Layer</li>
         <li>Chapter 4: Network Layer: Data Plane</li>
         <li>Chapter 5: Network Layer: Control Plane</li>
         <li>Chapter 6: Multiple Access Protocols</li>
-        <li>Reliable Data Transfer</li>
     </ul>
 </ul>
 
