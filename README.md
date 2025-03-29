@@ -243,7 +243,6 @@ and non-ideal filters</li>
         <li>Chapter 3: Arithmetic for Computers</li>
         <li>Chapter 4: The Processor</li>
         <li>Chapter 5: Large and Fast: Exploiting Memory Hierarchy</li>
-        <li>Chapter 6: Parallel Processors from Client to Cloud</li>
     </ul>
 </ul>
 <p align="left" style="display: flex; align-items: center;">
