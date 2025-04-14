@@ -281,7 +281,7 @@ and non-ideal filters</li>
         <li>Chapter 5: Grammars and Parsing</li>
         <li>Chapter 6: LL(1) Grammars and Parsing</li>
         <li>Chapter 7: LR Parsing</li>
-        <li>Chapter 8: Yacc軟體使用</li>
+        <li>Chapter 8: Yacc 軟體使用</li>
         <li>Chapter 9: Semantic Processing</li>
         <li>Chapter 10: Symbol Tables</li>
     </ul>
